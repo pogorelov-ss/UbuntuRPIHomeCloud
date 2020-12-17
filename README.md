@@ -8,7 +8,7 @@ https://ubuntu.com/tutorials/how-to-install-ubuntu-on-your-raspberry-pi#1-overvi
 
 ### change ip to static 
 
-https://linuxize.com/post/how-to-configure-static-ip-address-on-ubuntu-20-04/
+https://netplan.io/examples/
 
 `ip a`
 
@@ -46,3 +46,6 @@ network:
 ```
 
 `sudo netplan apply`
+
+reconect with new IP
+
